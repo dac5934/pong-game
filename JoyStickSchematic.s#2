@@ -1751,17 +1751,17 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <instances>
 <instance part="S1" gate="G$1" x="114.3" y="48.26" smashed="yes">
 <attribute name="NAME" x="106.68" y="61.214" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="106.68" y="30.226" size="1.778" layer="96" font="vector" align="top-left"/>
+<attribute name="VALUE" x="106.68" y="32.766" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="S2" gate="G$1" x="30.48" y="86.36" smashed="yes">
 <attribute name="NAME" x="30.48" y="90.424" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="25.4" y="96.012" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="VALUE" x="30.48" y="80.772" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="U$1" gate="G$1" x="33.02" y="43.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="38.1" y="69.85" size="1.27" layer="95"/>
 </instance>
 <instance part="R2" gate="G$1" x="48.26" y="86.36" smashed="yes">
-<attribute name="NAME" x="48.26" y="91.6686" size="1.778" layer="95" align="center"/>
+<attribute name="NAME" x="48.26" y="89.1286" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="48.26" y="83.058" size="1.778" layer="96" align="center"/>
 </instance>
 </instances>
@@ -1842,11 +1842,18 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="15.24" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="N$8" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="S2" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="86.36" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="86.36" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="86.36" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="86.36" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="71.12" x2="10.16" y2="71.12" width="0.1524" layer="91"/>
+<junction x="38.1" y="86.36"/>
+<pinref part="U$1" gate="G$1" pin="GND@2"/>
+<wire x1="10.16" y1="71.12" x2="10.16" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="63.5" x2="15.24" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

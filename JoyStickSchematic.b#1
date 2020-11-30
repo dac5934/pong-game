@@ -723,11 +723,17 @@ design rules under a new name.</description>
 <wire x1="44.46" y1="63.51" x2="44.46" y2="64.34" width="0.1524" layer="1"/>
 <wire x1="27.8738" y1="58.3538" x2="31.75" y2="62.23" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$9">
+<signal name="N$8">
 <contactref element="S2" pad="3"/>
 <contactref element="R2" pad="1"/>
 <wire x1="10.16" y1="23.05" x2="10.16" y2="17.5006" width="0.1524" layer="1"/>
 <wire x1="10.16" y1="17.5006" x2="10.4394" y2="17.2212" width="0.1524" layer="1"/>
+<contactref element="U$1" pad="GND@2"/>
+<wire x1="10.16" y1="23.05" x2="25.4" y2="38.29" width="0.1524" layer="1"/>
+<wire x1="25.4" y1="38.29" x2="25.4" y2="60.96" width="0.1524" layer="1"/>
+<wire x1="25.4" y1="60.96" x2="27.5862" y2="63.1462" width="0.1524" layer="1"/>
+<wire x1="40.7262" y1="63.1462" x2="41.92" y2="64.34" width="0.1524" layer="1"/>
+<wire x1="27.5862" y1="63.1462" x2="40.7262" y2="63.1462" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
